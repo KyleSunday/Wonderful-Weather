@@ -1,0 +1,22 @@
+/* Sets all content font */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sets custom header CSS */
+.customHeader {
+    background-image: linear-gradient(to right, #ff9003, #FCDD2D, #D58FAA, #C47DA0, #6779B9);
+}
+
+/* Adjusts forecast card for screen width */ 
+@media (max-width: 1317px) {
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Sets bg color for 5 Day Forecast cards */
+.customBgColor {
+    background-color: #280137;
+}
